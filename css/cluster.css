@@ -1,0 +1,203 @@
+
+span.wpcf7-not-valid-tip,div.wpcf7-response-output{
+    font-size:12px
+}
+
+
+.flex-fluid{
+    margin-right:-1rem;
+    margin-left:-1rem
+}
+
+.flex{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-flex:0;
+    -ms-flex:0 1 auto;
+    flex:0 1 auto;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap
+}
+.flex .right{
+    margin-left:auto
+}
+.flex .left{
+    margin-right:auto
+}
+
+
+
+
+
+
+
+
+
+
+
+.featured-item{
+    -ms-flex-preferred-size:100%;
+    flex-basis:100%;
+    max-width:100%;
+    position:relative
+}
+.featured-item .featured-wrapper{
+    position:relative;
+    min-height:360px
+}
+@media (max-width: 48rem){
+    .featured-item .featured-wrapper{
+        max-height:200px;
+        min-height:200px;
+        overflow:hidden
+    }
+}
+.featured-item a{
+    display:block
+}
+.featured-item a:after{
+    content:"";
+    background:-webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0,0,0,0.9)));
+    background:linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.9) 100%);
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    -webkit-transition:all 0.3s linear;
+    transition:all 0.3s linear
+}
+.featured-item a:hover:after{
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,136,204,0)), to(rgba(0,136,204,0.6)));
+    background:linear-gradient(to bottom, rgba(0,136,204,0) 0%, rgba(0,136,204,0.6) 100%);
+    -webkit-transition:all 0.3s linear;
+    transition:all 0.3s linear
+}
+.featured-item img{
+    border:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+    -o-object-fit:cover;
+    object-fit:cover;
+    -o-object-position:50% 50%;
+    object-position:50% 50%
+}
+.featured-item .entry-title{
+    position:absolute;
+    bottom:0;
+    padding:1rem;
+    margin:0;
+    color:white;
+    z-index:10;
+    width:100%;
+    font-size:1.5rem
+}
+@media (min-width: 48rem){
+    .featured-item{
+        -ms-flex-preferred-size:33.33333333%;
+        flex-basis:33.33333333%;
+        max-width:33.33333333%
+    }
+    .featured-item:first-child{
+        padding-left:1rem
+    }
+    .featured-item:nth-child(3n+1){
+        padding-left:1rem
+    }
+    .featured-item:nth-child(3n){
+        padding-right:1rem
+    }
+}
+@media (min-width: 48rem){
+    .home .featured-item{
+        margin-top:2rem
+    }
+}
+.entry-related .entry-related-item a{
+    display:block
+}
+
+
+
+@media (min-width: 25.875rem){
+    .entry-item{
+        -ms-flex-preferred-size:50%;
+        flex-basis:50%;
+        max-width:50%
+    }
+    .column-list{
+        -ms-flex-preferred-size:100%;
+        flex-basis:100%;
+        max-width:100%
+    }
+}
+@media (min-width: 48rem){
+    .column-half{
+        -ms-flex-preferred-size:50%;
+        flex-basis:50%;
+        max-width:50%
+    }
+    .column-quarter{
+        -ms-flex-preferred-size:25%;
+        flex-basis:25%;
+        max-width:25%
+    }
+    .column-third{
+        -ms-flex-preferred-size:33.33333333%;
+        flex-basis:33.33333333%;
+        max-width:33.33333333%
+    }
+    .columns-1 .entry-item{
+        -ms-flex-preferred-size:100%;
+        flex-basis:100%;
+        max-width:100%
+    }
+    .columns-2 .entry-item{
+        -ms-flex-preferred-size:50%;
+        flex-basis:50%;
+        max-width:50%
+    }
+    .columns-3 .entry-item{
+        -ms-flex-preferred-size:33.33333333%;
+        flex-basis:33.33333333%;
+        max-width:33.33333333%
+    }
+    .columns-4 .entry-item{
+        -ms-flex-preferred-size:25%;
+        flex-basis:25%;
+        max-width:25%
+    }
+    .columns-5 .entry-item{
+        -ms-flex-preferred-size:20%;
+        flex-basis:20%;
+        max-width:20%
+    }
+    .columns-6 .entry-item{
+        -ms-flex-preferred-size:16.6666666666%;
+        flex-basis:16.6666666666%;
+        max-width:16.6666666666%
+    }
+    .columns-7 .entry-item{
+        -ms-flex-preferred-size:14.28%;
+        flex-basis:14.28%;
+        max-width:14.28%
+    }
+}
+
+
+
+
+
+
+
+
+
+

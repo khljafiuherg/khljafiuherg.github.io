@@ -1,0 +1,276 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: white;
+
+}
+
+
+html{
+	font-size:18px;
+	-ms-overflow-style:scrollbar;
+
+	background-image: url('../img/free online games apk download.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: 100% 100%;
+	
+	
+}
+
+body{
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	
+	line-height:1.5;
+	word-wrap:break-word;
+	overflow-x:hidden;
+
+	min-height: 100vh;
+
+	font-family: "roboto", sans-serif;
+	padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.tituloDesc, .logoDiv{
+	width: 100%;
+	padding: 5px;
+
+}
+
+
+
+
+
+
+.logoDiv{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 25px;
+	max-height: 512px;
+}
+
+
+.logoDiv .logoDivImg{
+	margin: auto;
+	display: block;
+
+	width: 512px;
+	height: 512px;
+
+
+	}
+
+
+/*Una vez alcanza los 350px realizar el cambio*/
+@media screen and (max-width: 380px) {
+
+	.logoDiv .logoDivImg{
+	margin: auto;
+	display: block;
+
+	width: 300px;
+	height: 300px;
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tituloDesc h1{
+
+	margin: 5px;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: 900;
+	
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+}
+
+
+
+.tituloDesc p{
+	padding-top: 25px;
+	text-align: left;
+	font-size: 20px;
+
+	
+
+	
+
+
+}
+
+
+
+
+/*Una vez alcance los 350px realizar el cambio*/
+@media screen and (max-width: 350px) {
+    .tituloDesc h1{
+
+		text-align: left;
+		font-size: 1.2rem;
+		font-weight: 900;
+		
+	}
+
+
+	.featured-item .entry-title{
+		font-size: 1.12rem;
+	}
+
+}
+
+
+
+.divRec h2{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 50px;
+
+	text-align: left;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
+
+
+
+.gruesoTexto h2{
+	text-align: left;
+	font-size: 1.25rem;
+	margin: 5px;
+	margin-bottom: 12px;
+}
+
+
+.gruesoTexto h3{
+	text-align: left;
+	font-weight: 600;
+	font-size: 1.2rem;
+	margin: 5px;
+
+	margin-top: 80px;
+	margin-bottom: 12px;
+}
+
+
+
+footer{
+	margin-top: 32px;
+}
+
+
+.footer {
+	text-align: center;
+	border-style: solid;
+	border-color: whitesmoke;
+	border-radius: 8px;
+
+	padding: 5px;
+	margin: 5px;
+}
+
+.footer a{
+	color: skyblue;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+.footer a:hover{
+	color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video{
+	text-align: center;
+}
+
+
+
+.btnDescargas{
+
+	display: inline-block;
+	margin-left: 15px;
+
+
+}
+
+.banners{
+	text-align: center;
+}
+
+
+
+
+.smartLinkBanner{
+    	width: 700px;
+    	height: 90px;
+
+
+		}
+
+@media screen and (max-width: 400px) {
+    .smartLinkBanner{
+    	width: 300px;
+    	height: 90px;
+
+
+		}
+
+
+
+

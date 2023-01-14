@@ -1,0 +1,49 @@
+
+.FAQs{
+  margin: 12px;
+  margin-top: 100px;
+
+  text-align: left;
+
+  background-color: rgba( 0, 0, 0, .9);
+  border-width: 1px;
+  border-color: ghostwhite;
+  border-radius: 8px;
+  border-style: ridge;
+
+
+}
+
+
+
+
+.FAQs .tab{
+  text-align: left;
+  margin:  10px;
+  padding: 10px;
+}
+
+.FAQs p, ul li{
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  list-style: none;
+  background: #3d005b;
+  
+}
+
+.tab:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
