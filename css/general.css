@@ -223,10 +223,14 @@ footer{
 
 
 
+@media screen and (max-width: 400px) {
+	.video iframe{
+		width: 320px;
+		height: 320px;
+	}
 
 
-
-
+}
 
 
 
